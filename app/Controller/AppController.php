@@ -55,10 +55,10 @@ class AppController extends Controller {
         $this->Auth->allow('login');
     }
 	
-	// public function isAuthorized($user) {
-	// 	// Here is where we should verify the role and give access based on role
+	public function isAuthorized($user) {
+		// Here is where we should verify the role and give access based on role
 		
-	// 	return true;
-	// }
+		return true;
+	}
 	
 }
